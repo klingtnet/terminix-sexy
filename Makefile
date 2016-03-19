@@ -1,6 +1,6 @@
 .PHONY: all
 
-TERMINIX_SCHEME_PATH='/usr/share/terminix/schemes'
+TERMINIX_SCHEME_PATH?='/usr/share/terminix/schemes'
 
 all:
 	@ ./convert.py
