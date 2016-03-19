@@ -3,5 +3,5 @@
 TERMINIX_SCHEME_PATH?='/usr/share/terminix/schemes'
 
 all:
-	@ ./convert.py
+	@./convert.py
 	sudo cp -v out/*.json $(TERMINIX_SCHEME_PATH)
