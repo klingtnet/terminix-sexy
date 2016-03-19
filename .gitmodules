@@ -1,0 +1,3 @@
+[submodule "terminal.sexy"]
+	path = terminal.sexy
+	url = git@github.com:stayradiated/terminal.sexy.git
