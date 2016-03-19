@@ -18,5 +18,4 @@ TERMINIX_SCHEME_PATH='/path/to/terminix/schemes' make
 ## Requirements
 
 - python 3.x
-- bash
-
+- gnu make
