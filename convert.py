@@ -49,7 +49,7 @@ def write(scheme):
     try:
         dst_fp = os.path.join(OUTPATH, scheme['name'] + '.json')
         with open(dst_fp, 'w') as dst_f:
-            json.dump(scheme, dst_f)
+            json.dump(scheme, dst_f, indent=4, sort_keys=True)
     except IOError as err:
         print("""could not write output color scheme: {}
 error: {}""".format(dst_fp, err))
