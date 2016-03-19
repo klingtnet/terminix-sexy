@@ -34,7 +34,7 @@ def convert(path):
             source = json.load(src_f)
             dest = {'name': source['name'],
                     'comment': "Author: {}".format(source['author']),
-                    'use-theme-color': False,
+                    'use-theme-colors': False,
                     'foreground-color': source['foreground'],
                     'background-color': source['background'],
                     'palette': source['color']
