@@ -11,7 +11,7 @@ git clone --recursive url/of/this/repo/terminix.sexy.git
 make
 ```
 
-If your terminix scheme path is not `/usr/share/terminix/schemes` call make like this:
+If your terminix scheme path is not `~/.config/terminix/schemes` call make like this:
 
 ```sh
 TERMINIX_SCHEME_PATH='/path/to/terminix/schemes' make
